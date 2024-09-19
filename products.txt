@@ -1,0 +1,5 @@
+
+Spaghetti, 3.4, Groceries
+Potato, 50.5, Vegetables
+Potato, 5.5, Vegetables
+Cucumber, 7.5, Vegetables
