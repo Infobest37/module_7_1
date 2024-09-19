@@ -14,6 +14,7 @@ class Shop():
     def get_products(self):
         file = open(self.__file_name, 'r')
         products = file.read()  # Читаем строки
+        file.close()
         return products  # Возвращаем список продуктов
     def add(self, *products):
         check_products = self.get_products() # Сначала получаем все продукты, которые уже есть в магазине
