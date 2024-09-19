@@ -26,6 +26,7 @@ class Shop():
             else:
                  file.write(f"{product_str}\n") # Если продукта нет, записываем его в файл
                  print(f"Продукт {product_str} добавлен.")
+        file.close()
 
 
 s1 = Shop()
